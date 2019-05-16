@@ -1,0 +1,45 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "backend API of front-end crypto  framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinbcoding/Project-3.git"
+  },
+  "author": "Calvin Bruch",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "",
+    "body-parser": "^1.19.0",
+    "config": "^1.25.1",
+    "connect-mongodb-session": "^2.1.1",
+    "cookie-parser": "~1.4.3",
+    "core-js": "^3.0.1",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "express-sessions": "^1.0.6",
+    "hbs": "^4.0.4",
+    "lint": "^1.1.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/calvinbcoding/Project-3/issues"
+  },
+  "homepage": "https://github.com/calvinbcoding/Project-3#readme"
+}
